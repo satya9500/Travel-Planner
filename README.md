@@ -10,6 +10,6 @@ You can see the site live [here](https://satya9500.github.io/Travel-Planner/).
 ![Random Problem](images/initial.png) 
 
 ### Djikstra's Solution
-![Djikstra's Solution](images/solution.png)
+![Djikstra's Solution](images/solved.png)
 
 
