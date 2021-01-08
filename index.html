@@ -14,16 +14,31 @@
     <title>Travel Plan</title>
 </head>
 <body>
-    <div id="container"></div>
-    <br>
-    <div class="text-center">
-      <button class="btn btn-primary" type="button" id="generate-Graph">Generate Graph</button>
+  <div id="container">
+    <div id="mynetwork">
     </div>
+    <div id="container2">
+        <span id="temptext2" style="width: 100%; text-align: center; font-size: x-large">
+        </span>
+        <span id="temptext" style="width: 100%; text-align: center; font-size: x-large">
+            Red link represents bus travel time : <i class="fa fa-bus" aria-hidden="true" style="color: orange"></i><br>
+            Green link represents flight travel time : <i class="fa fa-plane" aria-hidden="true" style="color: green"></i><br>
+            Click on solve to get Solution !!
+        </span>
+        <div id="mynetwork2" style="display: none"></div>
+    </div>
+</div>
+
+<div>
+    <br>
+    <button type="button" class="btn btn-primary" id="generate-graph">Get New Problem</button>
+    <br>
+    <button type="button" class="btn btn-success" id="solve">Solve</button>
+</div>
 
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
     <script src="js/setup.js"></script>
-    <script src="js/travel.js"></script>
 </body>
 </html>
